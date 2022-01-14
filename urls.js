@@ -1,4 +1,4 @@
-@echo off
+::@echo off
 set usbeam="https://link.jscdn.cn/189/aHR0cHM6Ly9jbG91ZC4xODkuY24vd2ViL3NoYXJlP2NvZGU9MnVVSkJiTlZGYlUz.zip"
 set acrobat2020="https://stuxidianeducn-my.sharepoint.com/personal/htmao_stu_xidian_edu_cn/_layouts/15/download.aspx?share=ESGaHpSEfA1FuH1IqxWoFw0BAX5hOgGwXWSdUG9t_c6XkA"
 set photoshop2020="https://stuxidianeducn-my.sharepoint.com/personal/htmao_stu_xidian_edu_cn/_layouts/15/download.aspx?share=EY-2NpjJ4aNOmCYAHWrsdu0BFQNdTibOPDqYaHxROWR24w"
