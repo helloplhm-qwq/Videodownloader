@@ -17,3 +17,31 @@ set audition2020="https://stuxidianeducn-my.sharepoint.com/personal/htmao_stu_xi
 set lightroom2020="https://stuxidianeducn-my.sharepoint.com/personal/htmao_stu_xidian_edu_cn/_layouts/52/download.aspx?share=EQZYDfzsbsBCrUT7-XoDGysBSfVDYwnQAA-WUQErG3Aq3A"
 set animate2020="https://stuxidianeducn-my.sharepoint.com/personal/htmao_stu_xidian_edu_cn/_layouts/52/download.aspx?share=EYLs9-kLTVtFllxiiF6v6tMBlD2mDYq8N8Xpe6srM0VMBg"
 set steampp="https://pan.bilnn.cn/api/v3/file/sourcejump/E5pxXWH9/Gr7kjKRL0ukgGZ2PCkKqxOYE202-ac75TdpIk4R0x2I*"
+:main
+title AppDownload
+echo 欢迎来到软件下载工具
+echo "当前版本：1.1.24-dev21"
+echo 列表：
+echo 1.UsbEam Hosts Editor
+echo 2.PhotoShop 2020
+echo 3.Steam++
+set /p choice=请输入操作序号：
+if %choice%==1 (goto usbeam)
+if %choice%==2 (goto photoshop2020)
+if %choice%==3 (goto steampp)
+goto main
+:usbeam
+title Downloading
+start aria2c %usbeam% C:\Users\%username%\Desktop\
+echo 下载完成，按任意键返回
+goto main
+:photoshop2020
+title Downloading
+start aria2c %photoshop2020% C:\Users\%username%\Desktop\
+echo 下载完成，按任意键返回
+goto main
+:steampp
+title Downloading
+start aria2c %steampp% C:\Users\%username%\Desktop\
+echo 下载完成，按任意键返回
+goto main
