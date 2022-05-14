@@ -1,5 +1,5 @@
 {
-   "newestversion": 2000,
+   "newestversion": 2001,
    "libraries": "https://cdn.jsdelivr.net/gh/penglihuamiao/Videodownloader@main/libraries.json",
    "mirrors": [
      "https://cdn.jsdelivr.net/gh/penglihuamiao/Videodownloader@main/cithub-mirror-lib.json",
