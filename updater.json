@@ -1,8 +1,8 @@
 {
    "newestversion": 2000,
-   "libraries": "https://raw.githubusercontent.com/penglihuamiao/Videodownloader/main/updater.json",
+   "libraries": "https://raw.githubusercontent.com/penglihuamiao/Videodownloader/main/libraries.json",
    "mirrors": [
-     "https://raw.cithub.icu/penglihuamiao/Videodownloader/main/fastgit-mirror-lib.json",
+     "https://raw.cithub.icu/penglihuamiao/Videodownloader/main/cithub-mirror-lib.json",
      "https://raw.fastgit.org/penglihuamiao/Videodownloader/main/fastgit-mirror-lib.json"
    ]
 }
