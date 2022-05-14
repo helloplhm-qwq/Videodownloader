@@ -1,8 +1,8 @@
 {
    "newestversion": 2000,
-   "libraries": "https://cdn.jsdelivr.net/gh/penglihuamiao/Videodownloader@main/libraries.json",
+   "libraries": "https://raw.githubusercontent.com/penglihuamiao/Videodownloader/main/updater.json",
    "mirrors": [
-     "https://cdn.jsdelivr.net/gh/penglihuamiao/Videodownloader@main/cithub-mirror-lib.json",
-     "https://cdn.jsdelivr.net/gh/penglihuamiao/Videodownloader@main/fastgit-mirror-lib.json"
+     "https://raw.cithub.icu/penglihuamiao/Videodownloader/main/fastgit-mirror-lib.json",
+     "https://raw.fastgit.org/penglihuamiao/Videodownloader/main/fastgit-mirror-lib.json"
    ]
 }
